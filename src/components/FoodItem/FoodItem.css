@@ -61,3 +61,19 @@
 .food-item-counter img{
     width: 30px;
 }
+
+@media (max-width: 750px) {
+    .food-item {
+        width: 100%; /* Adjust width to show two items side-by-side */
+        margin: 1%; /* Add margin for spacing */
+    }
+
+   
+}
+
+@media (max-width: 480px) {
+    .food-item {
+        width: 30%; /* Keep two items side by side on very small screens */
+        margin: 1%; /* Maintain small margins */
+    }
+}

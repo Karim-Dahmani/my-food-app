@@ -44,3 +44,38 @@ color: white;
     margin: 20px 0;
     background-color: gray;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr; /* Stack the columns on smaller screens */
+        gap: 40px; /* Increase gap for better readability on small devices */
+    }
+
+    .footer-content-left, 
+    .footer-content-center, 
+    .footer-content-right {
+        align-items: center; /* Center align the content for better aesthetics on mobile */
+    }
+
+    .footer-social-icons img {
+        width: 35px; /* Slightly reduce the size of the icons */
+    }
+
+    .footer hr {
+        margin: 40px 0; /* Increase margin to separate sections distinctly */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px 5vw; /* Reduce padding for very small screens */
+    }
+
+    .footer-content-left p,
+    .footer-content-right ul,
+    .footer-content-center ul {
+        font-size: 0.8rem; /* Reduce font size to fit smaller screens */
+    }
+}
+

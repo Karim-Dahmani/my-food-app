@@ -61,19 +61,48 @@
 .food-item-counter img{
     width: 30px;
 }
-
 @media (max-width: 750px) {
     .food-item {
-        width: 100%; /* Adjust width to show two items side-by-side */
-        margin: 1%; /* Add margin for spacing */
+        width: 100%; /* Adjust width for better fit */
+        flex-direction: row; /* Change direction to row for compact view */
+        align-items: stretch; /* Ensure items stretch to fill the container */
+        margin: 1%; /* Adjust margin to ensure full use of available space */
     }
 
-   
+    .food-item-img-container {
+        width: 100%; /* Half-width to image */
+    }
+
+    .food-item-info {
+        width: 50%; /* Half-width to content */
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .food-item-name-rating {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 @media (max-width: 480px) {
     .food-item {
-        width: 30%; /* Keep two items side by side on very small screens */
-        margin: 1%; /* Maintain small margins */
+        width: 100%; /* Full width */
+        margin: 0; /* Remove margin to use full screen width */
+        border-radius: 0; /* Optional: remove border-radius for a full-screen feel */
+        box-shadow: none; /* Optional: remove shadow for cleaner look */
+        flex-direction: column; /* Revert to column on very small screens */
+    }
+
+    .food-item-img-container,
+    .food-item-info {
+        width: 100%; /* Full width for both */
+    }
+
+    .food-item-name-rating {
+        flex-direction: column; /* Stack title and rating vertically */
+        align-items: center; /* Center alignment for title and rating */
     }
 }

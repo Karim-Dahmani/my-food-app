@@ -40,6 +40,6 @@ We welcome contributions to the My Food App. Please read through our contributin
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
 
 ## Contact
-For any queries or further information, you can reach out at [mohammedkarimdahmani@gmail.com](mailto:mohammedkarimdahmani@gmail.com). Connect with me on LinkedIn: [Mohammed Karim Dahmani](https://www.linkedin.com/in/mohammed-karim-dahmani-b532b41b2/).
+For any queries or further information, you can reach out at [mohammedkarimdahmani@gmail.com](mailto:dahmanimohammedkarim@gmail.com). Connect with me on LinkedIn: [Mohammed Karim Dahmani](https://www.linkedin.com/in/mohammed-karim-dahmani-b532b41b2/).
 
 
